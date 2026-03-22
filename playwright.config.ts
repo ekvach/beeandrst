@@ -17,7 +17,7 @@ export default defineConfig({
   reporter: 'html',
 
   use: {
-    headless: false,
+    headless: true,
 
     trace: 'retain-on-failure',
     screenshot: 'only-on-failure',
