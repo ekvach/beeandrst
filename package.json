@@ -1,0 +1,21 @@
+{
+  "name": "beeandrst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm ci && playwright install --with-deps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/k6": "^1.6.0",
+    "@types/node": "^25.5.0"
+  },
+  "dependencies": {
+    "k6": "^0.0.0",
+    "tsc": "^2.0.4"
+  }
+}
